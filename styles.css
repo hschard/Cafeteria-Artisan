@@ -1,20 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Electrolize&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Electrolize&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*Reset CSS*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
 }
 
 body {
     width: 100vw;
     height: 100vh;
+    background: linear-gradient(to right, #F2EEEB, #D9D2D0) ;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 50px 0;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.11);
+}
+
+.link-title {
+    font-family: "EB Garamond", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 15px;
+    color: #33210D;
+}
+
+.link-head {
+    margin: 0 15px;
+    color: #4E453D;
+    font-weight: 500;
+}
+
+.link-head:hover {
+    color: rgb(1, 119, 1);
+    border-bottom: 2px solid rgb(1, 119, 1);
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-left: 1130px;
+}
+
+.btn-reserva {
+    height: 30px;
+    width: 160px;
+    margin-left: 40px;
+    background-color: #4B3621;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.btn-reserva:hover {
+    color: #33210D;
+    font-weight: 700;
+    background: rgb(1, 119, 1);
+    cursor: pointer;
 }
 
 .aroma {
+    display: flex;
+    flex-direction: column;
     background-image: url(./assets/background.png);
     background-repeat: no-repeat;
-    height: 70vh;
-    width: 100%;
-    margin: 0 25vw;
+    height: 600px;
+    width: 1300px;
+    margin: 0 300px;
+}
+
+
+button {
+    width: 150px;
+    height: 50px;
+}
+
+.btn-menu {
+    background-color: #4B3621;
+    color: white;
+    margin-top: 100px;
 }
